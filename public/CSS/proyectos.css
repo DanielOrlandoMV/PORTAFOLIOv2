@@ -1,0 +1,286 @@
+body {
+    background: linear-gradient(90deg,#0b5fb3, #419fda, #1a72ca );
+
+    margin: 0; /* Elimina márgenes por defecto */
+
+    font-family: 'Arial', sans-serif; /* Tipografía legible */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+    color: #333; /* Color del texto, generalmente un gris oscuro */
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto del elemento */
+  
+  }
+  
+  header {
+    background: linear-gradient(90deg,#003366, #005f99, #0080ff );
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .titulo00{
+    font-size: 30px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 155px;
+    left: 570px;
+  
+  }
+
+.img-header {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.imagen {
+    text-align: right;
+}
+
+.image img {
+    position:absolute; 
+    top: 40px;
+    left: 120px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 15px rgb(92, 163, 255);
+}
+
+.nombre{
+    position: absolute;
+    top: 30px;
+    left: 590px;
+    color: #3a81b1;
+    color: #ddeaec; 
+    text-decoration: underline;
+    background-color: #4582b4; 
+    box-shadow: 5px 5px 15px rgb(0, 110, 255);
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.encabezado{
+    font-size: 30px;
+    color: #143347;
+    text-decoration: underline;
+    background-color: #4582b4; 
+    color: #ddeaec; 
+    box-shadow: 5px 5px 15px rgb(0, 110, 255);
+    padding: 10px; 
+    border-radius: 5px; 
+    position: absolute;
+    top: 110px;
+    left: 350px;  
+}
+
+.descripcion{
+    font-size: 20px;
+    color: #ddeaec; 
+    background-color: #4582b4; 
+    box-shadow: 5px 5px 15px rgb(0, 110, 255);
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 100px;  
+}
+
+
+
+
+/*------------------------------------------------*/
+.analizador img {
+    width: 180px; 
+    height: auto;  
+    display: block; 
+    position: absolute; 
+    top: 300px; 
+    left: 20px; 
+}
+.proyect1{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 25px;
+
+}
+
+
+.pacman img {
+    width: 180px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 300px;  
+    left: 220px;
+}
+
+.proyect2{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 270px;
+
+}
+
+.login img {
+    width: 180px; 
+    height: auto;  
+    display: block;
+    position: absolute; 
+    top: 300px;  
+    left: 420px; 
+}
+
+.proyect3{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 415px;
+
+}
+
+.titulo3{
+    font-size: 30px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 200px;
+    left: 610px;
+}
+
+.calculadora img {
+    width: 180px; 
+    height: auto; 
+    display: block; 
+    position: absolute;
+    top: 300px;
+    left: 620px;
+}
+
+.proyect4{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+
+}
+
+.titulo4{
+    font-size: 30px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 200px;
+    left: 680px;
+}
+
+.taca img {
+    width: 180px;
+    height: auto;  
+    display: block;
+    position: absolute;
+    top: 300px; 
+    left: 820px; 
+}
+
+.proyect5{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 828px;
+
+}
+
+.titulo5{
+    font-size: 30px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.veterinaria img {
+    width: 180px;
+    height: auto;
+    display: block;
+    position: absolute; 
+    top: 315px; 
+    left: 1015px; 
+}
+
+.proyect6{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 1015px;
+
+}
+
+.SO img {
+    width: 180px;  
+    height: auto; 
+    display: block; 
+    position: absolute; 
+    top: 300px;  
+    left: 1217px;   
+}
+
+.proyect7{
+    font-size: 15px;
+    color: #f4f5f7;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 1217px;
+
+}
+
+.proyects{
+    background-color: #1457bb;
+    color: white;
+    border: none; 
+    position: absolute;
+    top: 630px;
+    left: 670px;  
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+footer {
+
+    background: linear-gradient(90deg, #0080ff, #005f99, #003366);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+    top: 555px;
+}

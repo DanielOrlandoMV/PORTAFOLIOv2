@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(90deg,#0b5fb3, #419fda, #1a72ca );
+  border-radius: 0%;
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina el relleno por defecto */
+  font-family: 'Arial', sans-serif; /* Tipografía legible */
+  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+  color: #333; /* Color del texto, generalmente un gris oscuro */
+  box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto del elemento */
+
+}
+
+header {
+  background: linear-gradient(90deg,#003366, #005f99, #0080ff );
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-header {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  width: 110px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.titulo00{
+  font-size: 30px;
+  color: #f4f5f7;
+  text-decoration: underline;
+  position: absolute;
+  top: 155px;
+  left: 535px;
+
+}
+
+.descripcionCon{
+  font-size: 20px;
+  color: #ddeaec; 
+  background-color: #61adeb; 
+  box-shadow: 5px 5px 15px rgb(0, 110, 255);
+  padding: 10px; 
+  border-radius: 5px; 
+  display: inline-block;
+  position: absolute;
+  top: 220px;
+  left: 240px;
+  text-align: center;
+}
+
+.proyects{
+  background-color: #1457bb;
+  color: white;
+  border: none; 
+  position: absolute;
+  top: 630px;
+  left: 610px;  
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block; 
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px; 
+  text-align: center;
+}
+
+footer {
+  top: 435px;
+  background: linear-gradient(90deg, #0080ff, #005f99, #003366);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

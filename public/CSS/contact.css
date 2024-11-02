@@ -1,13 +1,12 @@
 body {
-  background: linear-gradient(90deg,#0b5fb3, #419fda, #1a72ca );
-  border-radius: 0%;
-  margin: 0; /* Elimina márgenes por defecto */
-  padding: 0; /* Elimina el relleno por defecto */
-  font-family: 'Arial', sans-serif; /* Tipografía legible */
-  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
-  color: #333; /* Color del texto, generalmente un gris oscuro */
-  box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto del elemento */
+  background-image: url('../images/header.jpg');
 
+      border-radius: 0%;
+      margin: 0; /* Elimina márgenes por defecto */
+      padding: 0; /* Elimina el relleno por defecto */
+      font-family: 'Arial', sans-serif; /* Tipografía legible */
+      line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+      color: #333; /* Color del texto, generalmente un gris oscuro */
 }
 
 header {
@@ -21,34 +20,38 @@ header {
 
 .img-header {
   position: absolute;
-  top: 5px;
-  right: 35px;
-  width: 110px;
+  top: 15px;
+  right: 45px;
+  width: 100px;
   height: auto;
   border-radius: 50%;
 }
 
-.titulo00{
+.img-header:hover {
+  transform: scale(1.1);
+}
+
+.tituloContacto{
   font-size: 30px;
-  color: #f4f5f7;
+  color: #246dff;
   text-decoration: underline;
   position: absolute;
   top: 155px;
-  left: 535px;
+  left: 615px;
 
 }
 
-.descripcionCon{
+.descripcionContacto{
   font-size: 20px;
   color: #ddeaec; 
   background-color: #61adeb; 
-  box-shadow: 5px 5px 15px rgb(0, 110, 255);
+  box-shadow: 5px 5px 15px rgb(134, 134, 134);
   padding: 10px; 
   border-radius: 5px; 
   display: inline-block;
   position: absolute;
   top: 220px;
-  left: 240px;
+  left: 310px;
   text-align: center;
 }
 
@@ -57,8 +60,8 @@ header {
   color: white;
   border: none; 
   position: absolute;
-  top: 630px;
-  left: 610px;  
+  top: 640px;
+  left: 670px;  
   padding: 10px 20px;
   text-align: center;
   display: inline-block; 
@@ -67,6 +70,11 @@ header {
   border-radius: 5px; 
   text-align: center;
 }
+
+.proyects:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+}
+
 
 footer {
   top: 435px;

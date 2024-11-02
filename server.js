@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+const { partials } = require('handlebars');
 require('dotenv').config();
 
 const app = express();
@@ -8,7 +9,9 @@ const port = process.env.PORT || 8080;
 
 
 app.set('view engine', 'hbs');
+
 app.set('views', path.join(__dirname, 'views'));
+hbs.registerPartials(path.join(__dirname,'views/partials'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

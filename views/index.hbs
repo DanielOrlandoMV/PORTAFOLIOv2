@@ -5,31 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página con Imagen, Barras y Tabla</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    {{> header}}
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1 class="titulo1"> Daniel Orlando Muj Vasquez <br>
-                                PORTAFOLIO</h1>
-        <img src="./images/foto.jpeg" alt="Imagen" class="img-header">
-    </header>
-
-    <nav class="nav-vertical">
-        <ul>
-            <a class="btn primary full" href="/contacto"> CONTACTO </a>
-            <a class="btn primary full" href="/objetivos"> OBJETIVOS</a>
-            <a class="btn primary full" href="/Proyectoss"> PROYECTOS</a>
-        </ul>
-    </nav>
-
+{{> navbar}}
     <!-- Contenido principal -->
     <main>
         <section class="contenido">
-            <p>Hola, me presento soy Daniel Orlando un estudiante de ingenieria de sistemas, en esta ocacion tengo la oportunidad de presentar lo que es mi portafolio, donde podra encontrar mis habilidades, contatos y lo mas importante proyectos que e realizado, espero le sea de su agrado. <br>
-                <br>Me entusiasma la oportunidad de seguir creciendo profesional y personalmente en nuevos desafíos que me permitan contribuir activamente al éxito de su equipo.</p>
+            <p>Hola, me presento soy Daniel Orlando un estudiante de ingenieria de sistemas, atualmente me encuentro realizando mis practicas en una empresa como PO. <br><br> 
+            En esta ocacion tengo la oportunidad de presentar lo que es mi portafolio, donde podra encontrar mis habilidades, contactos y lo mas importante algunos de mis proyectos, esto para comprender mis habilidades, espero le sea de su agrado. <br>
+                <br>Para empezar me gustaria comentar de manera general que me entusiasma la idea de tener una oportunidad de seguir creciendo de manera profesional, y personalmente enfrentarme a nuevos desafíos que me permitan contribuir activamente al éxito de su equipo.<br><br>
+                    Me especializado en el area de la informatica me gradue de bachiller en computación, ademas de contar con un tecnico en computacion, tener certificados de lenguages de programación como en CISCO, actualmente estoy ampliando mis conocimientos al estudiar una Ingenieria en sistemas de información y ciencias de la computación
+                    lo que me a ayudado a extender mis conocimientos y comprender de mejor manera como es el entorno al que me deseo dedicar</p>
 
-                <p class="habilidad"> HABILIDADES</p>
+                <p class="habilidad"> SKILLS</p>
             <!-- Barras de progreso -->
             <div class="progress-bar">
                 <label for="progreso1">C++</label>
@@ -64,6 +54,29 @@
             <div class="progress-bar">
                 <label for="progreso3">SO</label>
                 <progress id="progreso3" value="90" max="100"></progress>
+
+            </div>
+
+            <div class="progress-bar">
+                <label for="progreso3">OFFICE</label>
+                <progress id="progreso3" value="90" max="100"></progress>
+
+            </div>
+
+            <div class="progress-bar">
+                <label for="progreso3">SOPORTE DE COMPUTADORAS</label>
+                <progress id="progreso3" value="95" max="100"></progress>
+
+            </div>
+
+            <div class="progress-bar">
+                <label for="progreso3">FIGMA</label>
+                <progress id="progreso3" value="75" max="100"></progress>
+
+            </div>
+            <div class="progress-bar">
+                <label for="progreso3">AZURE</label>
+                <progress id="progreso3" value="55" max="100"></progress>
 
             </div>
 
@@ -109,11 +122,7 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Daniel Orlando Muj Vasquez. <br>
-            Todos los derechos reservados.</p>
-    </footer>
+{{> footer}}
 
 </body>
 </html>

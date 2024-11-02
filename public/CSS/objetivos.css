@@ -1,44 +1,48 @@
 body {
-    background: linear-gradient(90deg,#0b5fb3, #419fda, #1a72ca );
-    border-radius: 0%;
-    margin: 0; /* Elimina márgenes por defecto */
-    padding: 0; /* Elimina el relleno por defecto */
-    font-family: 'Arial', sans-serif; /* Tipografía legible */
-    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
-    color: #333; /* Color del texto, generalmente un gris oscuro */
-    box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto del elemento */
+  background-image: url('../images/header.jpg');
+
+      border-radius: 0%;
+      margin: 0; /* Elimina márgenes por defecto */
+      padding: 0; /* Elimina el relleno por defecto */
+      font-family: 'Arial', sans-serif; /* Tipografía legible */
+      line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+      color: #333; /* Color del texto, generalmente un gris oscuro */
+}
   
-  }
+header {
+  background: linear-gradient(90deg,#003366, #005f99, #0080ff );
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-header {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
   
-  header {
-    background: linear-gradient(90deg,#003366, #005f99, #0080ff );
-    color: white;
-    text-align: center;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-  }
+.img-header:hover {
+  transform: scale(1.1);
+}
+
   
-  .img-header {
-    position: absolute;
-    top: 5px;
-    right: 35px;
-    width: 110px;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .titulo00{
+  .tituloObjetivos{
     font-size: 30px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
-    top: 115px;
-    left: 615px;
+    top: 155px;
+    left: 625px;
   
   }
   
-  .descripcionCon{
+  .descripcionObjetivos{
     font-size: 20px;
     color: #ddeaec; 
     background-color: #61adeb; 
@@ -47,8 +51,8 @@ body {
     border-radius: 5px; 
     display: inline-block;
     position: absolute;
-    top: 200px;
-    left: 350px;
+    top: 225px;
+    left: 380px;
     text-align: center;
   }
   
@@ -57,8 +61,8 @@ body {
     color: white;
     border: none; 
     position: absolute;
-    top: 600px;
-    left: 600px;  
+    top: 640px;
+    left: 670px;  
     padding: 10px 20px;
     text-align: center;
     display: inline-block; 
@@ -66,6 +70,10 @@ body {
     margin: 4px 2px;
     border-radius: 5px; 
     text-align: center;
+  }
+
+  .proyects:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
   }
   
   footer {

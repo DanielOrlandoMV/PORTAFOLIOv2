@@ -1,14 +1,14 @@
 body {
-    background: linear-gradient(90deg,#0b5fb3, #419fda, #1a72ca );
-
-    margin: 0; /* Elimina márgenes por defecto */
-
-    font-family: 'Arial', sans-serif; /* Tipografía legible */
-    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
-    color: #333; /* Color del texto, generalmente un gris oscuro */
-    box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto del elemento */
+    background-image: url('../images/header.jpg');
   
+        border-radius: 0%;
+        margin: 0; /* Elimina márgenes por defecto */
+        padding: 0; /* Elimina el relleno por defecto */
+        font-family: 'Arial', sans-serif; /* Tipografía legible */
+        line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+        color: #333; /* Color del texto, generalmente un gris oscuro */
   }
+    
   
   header {
     background: linear-gradient(90deg,#003366, #005f99, #0080ff );
@@ -21,7 +21,7 @@ body {
 
   .titulo00{
     font-size: 30px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 155px;
@@ -29,16 +29,20 @@ body {
   
   }
 
-.img-header {
+  .img-header {
     position: absolute;
-    top: 10px;
-    right: 35px;
-    width: 90px;
+    top: 15px;
+    right: 45px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
-}
+  }
+    
+  .img-header:hover {
+    transform: scale(1.1);
+  }
 
-.imagen {
+  .imagen {
     text-align: right;
 }
 
@@ -105,9 +109,14 @@ body {
     top: 300px; 
     left: 20px; 
 }
+
+.analizador img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect1{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -125,9 +134,13 @@ body {
     left: 220px;
 }
 
+.pacman img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect2{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -144,9 +157,13 @@ body {
     left: 420px; 
 }
 
+.login img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect3{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -156,7 +173,7 @@ body {
 
 .titulo3{
     font-size: 30px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 200px;
@@ -172,9 +189,13 @@ body {
     left: 620px;
 }
 
+.calculadora img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect4{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -184,7 +205,7 @@ body {
 
 .titulo4{
     font-size: 30px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 200px;
@@ -200,9 +221,13 @@ body {
     left: 820px; 
 }
 
+.taca img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect5{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -212,7 +237,7 @@ body {
 
 .titulo5{
     font-size: 30px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 200px;
@@ -228,9 +253,13 @@ body {
     left: 1015px; 
 }
 
+.veterinaria img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect6{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -247,9 +276,13 @@ body {
     left: 1217px;   
 }
 
+.SO img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+
 .proyect7{
     font-size: 15px;
-    color: #f4f5f7;
+    color: #0055ff;
     text-decoration: underline;
     position: absolute;
     top: 500px;
@@ -272,6 +305,11 @@ body {
     border-radius: 5px; 
     text-align: center;
   }
+
+  .proyects:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+  
 
 footer {
 
